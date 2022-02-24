@@ -13,7 +13,6 @@ Credenziali di amministrazione: admin@dbm.it:admin
 Credenziali di un utente di prova: artista1@dbm.it:artista1
 
 # Progettazione funzionale
-
 Visione Utente: unutente potrà consultare artisti, brani e album nella sua Home Page con la possibilità di ascoltare musica nella maggior semplicità possibile.
 
 Visione Artista: un artista potrà visualizzare nella sua dashboard dedicata i suoi album e canzoni, con possibilità di fare nuovi inserimenti e pianificarne la pubblicazione.
@@ -21,13 +20,18 @@ Visione Artista: un artista potrà visualizzare nella sua dashboard dedicata i s
 Visione Amministratore: un amministratore potrà approvare le pubblicazioni degli artisti, potrà bannare gli artisti iscritti al sito, scegliere gli artisti “Consigliati della casa” e gestire in generale tutti i dati riguardanti la musica.
 
 ## TODOs:
-
 -	Sistema statistico più approfindito, possibile integrazione con il sistema built-in del gateway.
 -	Interfaccia API per youtube music, spotify e soundcloud.
 -	Importazione brani da youtube.
 -	Stream musicale tramite microservizio in Spring Media.
 -	Sistema di rating per i brani.
 -	Sezione discovery per gli utenti.
+-	Aggiungere dei filtri oltre alla ricerca semplice.
+-	Reset password e conferma via mail.
+-	Selezione degli artisti tramite dropdown per la creazione di un'album da parte di un'amministratore (duh)
+-	Usare decentemente gli operatori RxJS.
+-	Usare moduli separati per ogni pagina per permettere il lazyloading.
+-	Modularizzare meglio il CSS.
 
 # Progettazione tecnica
 ![](DB_PW.png)
