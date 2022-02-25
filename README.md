@@ -1,4 +1,4 @@
-# D&BM
+# D&BM 2022
 ![](SLIDE.png)
 Applicazione creata con lo scopo di semplificare e rendere più immediata la gestione generale di una casa discografica.
 
